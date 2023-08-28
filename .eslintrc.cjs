@@ -11,5 +11,15 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  rules: {
+    '@typescript-eslint/no-explicit-any': 'off',
+    'linebreak-style': [
+      'error',
+      'unix'
+    ],
+    quotes: ['error', 'single'],
+    semi: ['error', 'never'],
+    'import/semi': 'off',
+  },
 }
